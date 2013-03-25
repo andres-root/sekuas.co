@@ -1,0 +1,193 @@
+body {
+	background: #080808;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+.main-panel {
+	margin: 10px auto;
+	width: 960px;
+	border: 4px solid #2A2A2A;
+}
+
+#main {
+	margin: 0 auto;
+	width: 100%;
+	border-bottom: 4px solid #2A2A2A;
+}
+
+.banner {
+	margin: 0 auto;
+	height: 411px;
+	background: url('/media/images/sekuas1.jpg') no-repeat;
+	background-size: 100%;
+}
+
+.panel2 {
+	width: 100%;
+}
+
+.panel2 menu {
+	width: 100%;
+	margin: 0;
+}
+
+.panel3 {
+	width: 100%;
+}
+
+#nav {
+	border-bottom: 4px solid #2A2A2A;
+}
+
+
+.nav-link {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Passion One', cursive;
+	font-size: 17px;
+	margin: 5px;
+}
+
+.nav-link:hover {
+	cursor: pointer;
+	color: #FF0000;
+}
+
+.nav-link a {
+	color: #fff;
+	display: inline-block;
+	font-family: 'Passion One', cursive;
+	font-size: 17px;
+	margin: 5px;
+}
+
+.nav-link a:hover {
+	cursor: pointer;
+	color: #FF0000;
+}
+
+.ads {
+	width: 100%;
+	height: 70px;
+	border-bottom: 4px solid #2A2A2A;
+}
+
+#content {
+	color: #fff;
+	margin: 0 auto;
+}
+
+#content #left {
+	display: table-cell;
+	width: 570px;
+}
+
+#content #right {
+	display: table-cell;
+	width: 200px;
+	height: 300px;
+	padding: 5px;
+}
+
+.post-cont {
+	margin: 8px 0 0 0;
+	border-bottom: 2px solid #B40404;
+}
+
+.post-element {
+	display: block;
+}
+
+.post-title label {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Denk One', sans-serif;
+}
+
+.post-last {
+	top: 0;
+	display: block;
+}
+
+.post-last p {
+	top: 0;
+	display: block;
+	font-size: 13px;
+}
+
+.cont {
+	padding: 5px;
+	width: 570px;	
+}
+
+#pub label {
+	font-family: 'Passion One', cursive;
+	color: #fff;
+	font-size: 20px;
+}
+
+.bio {
+	margin: 0 auto;
+	width: 90%;
+	font-family: 'Share Tech Mono', sans-serif;
+}
+
+.bio #logo {
+	margin: 0 auto;
+	width: 550px;
+	height: 280px;
+	background: url('/media/images/logo.jpg');
+}
+
+.cont-disc {
+	background: #000;
+	width: auto;
+	height: auto;
+}
+
+.disc {
+	margin: 0 auto;
+	width: 90%;
+	height: 90%;
+}
+
+#ep0 {
+	margin: 0 auto;
+	width: 733px;
+	height: 344px;
+	background: url('/media/images/demo1.png');
+}
+#ep1 {
+	margin: 0 auto;
+	width: 733px;
+	height: 370px;
+	background: url('/media/images/demo2.png');
+}
+#ep2 {
+	margin: 0 auto;
+	width: 784px;
+	height: 359px;
+	background: url('/media/images/demo3.png');
+}
+#ep3 {
+	margin: 10px auto;
+	width: 733px;
+	height: 339px;
+	background: url('/media/images/demo4.png');
+}

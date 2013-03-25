@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %} Inicio {% endblock %}
+{% block content %}
+{% if user.is_authenticated  %}
+{% endif %}
+{% if news %}
+                    <div id="left">
+	{% for n in news %}
+		{% if n.visible %}
+                        <article class="cont">
+                            <div class="post-title">
+                                <label for="tit">{{ n.title }}</label>
+                            </div>
+                            <div class="post-cont">
+                                <div class="post-element">
+                                    <img src="/media/images/unirock.jpg" width="570" height="600"/>
+                                </div>
+                                <div class="post-element">
+                                    <div class="post-last">
+                                        <p>
+                                            {{ n.content }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="post-footer">
+                        </article>
+		{% endif %}
+	{% endfor %}		
+                    </div>               
+    
+{% else %}
+	<h2>No existen noticias que mostrar</h2>
+{% endif %}
+                    <div id="right">
+                        <section id="pub">
+                            <label>Escúchanos</label>
+                            <div id="audio-player"></div>
+                            <article>
+                                
+                            </article>  
+                        </section>
+                    </div>  
+{% endblock %}

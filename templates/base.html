@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<title>{% block title %} Sekuas | Punk Rock HC {% endblock %}</title>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+        <link rel="stylesheet" id="style-css" href="http://necolas.github.com/normalize.css/2.0.1/normalize.css" type="text/css" media="all">
+        <link rel="stylesheet" id="style-css" href="media/css/index.css" type="text/css" media="all">
+        <link href='http://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+		<div class="container">
+            <div class="main-panel">   
+
+            <header id="main">
+
+                <div class="banner">
+                    
+                </div>
+            <div class="panel2">
+                    <nav id="nav">
+                        <div id="menu-list">
+                            <div class="nav-link"><a href="#">Inicio</a></div>
+                            <div class="nav-link"><a href="#">Historia</a></div>
+                            <div class="nav-link"><a href="#">Discografía</a></div>
+                            <div class="nav-link"><a href="#">Fotos</a></div>
+                            <div class="nav-link">Videos</div>
+                            <div class="nav-link">Conciertos</div>
+                            <div class="nav-link">Descargas</div>
+                            <div class="nav-link">Merchandise</div>
+                            <div class="nav-link"><a href="/contacto/">Contacto</a></div>
+                        </div>
+                    </nav>
+            </div>
+            <div class="ads"></div>
+		<div class="panel3">
+                <section id="content">
+					{% block content %}
+		
+					{% endblock %}	
+                </section>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %} Inicio {% endblock %}
+
+{% block content %}
+
+<div class="one_wrap">
+	
+	<div class="widget">
+	
+	    <div class="widget_title">
+	    	<span class="iconsweet">a</span>
+            <h5>PASO 1. Por favor registre su nombre de usuario y contraseña para poder continuar con el proceso de registro.</h5>
+        </div>
+
+	        	<form id="NewUsuario" action="" method="POST">
+	        		{% csrf_token %}
+	        		<ul class="form_fields_container">
+					{% for field in form %}
+						<li><label>{{ field.label }}:</label><div class="form_input">{{ field }}</div></li>
+					{% endfor %}
+					</ul>					
+	        		<input type="submit" value="Continuar" class="button_small whitishBtn iconsweet">
+				</form>
+				<div class="message">
+					<p>{{ message }}</p>
+				</div>
+		</div>
+	</div>
+
+
+</div>
+
+{% endblock %}

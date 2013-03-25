@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Galerìa {% endblock %}
+{% block content %}
+		<!--START JUICEBOX EMBED-->
+		<script src="media/lib/juicebox/web/jbcore/juicebox.js"></script>
+
+		<script>
+			new juicebox({
+				containerId : 'juicebox-container'
+			});
+
+		</script>
+		<div id="juicebox-container"></div>
+		<!--END JUICEBOX EMBED-->
+{% endblock %}

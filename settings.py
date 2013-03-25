@@ -33,7 +33,7 @@ else:
             "ENGINE": 'django.db.backends.mysql',
             'NAME': 'sekuas', 
             'USER': 'root',
-            'PASSWORD': 'W3bsnake5731',
+            'PASSWORD': 'dev2012',
             'HOST': '',
             'PORT': '',
             }

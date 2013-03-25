@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<juiceboxgallery
+	galleryTitle="Juicebox Lite Gallery"
+>
+  <image imageURL="media/images/banner.jpg"
+	thumbURL=""
+	linkURL="media/images/banner.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Juicebox!</title>
+  </image>
+  <image imageURL="media/images/calido.jpg"
+	thumbURL=""
+	linkURL="media/images/calido.jpg"
+	linkTarget="_blank">
+	<title>Welcome to Juicebox!</title>
+  </image>
+</juiceboxgallery>

@@ -46,4 +46,15 @@ def signup(request):
 		form = SUCreateForm()
 		ctx = {'form':form}
 		return render_to_response('manager/signup.html',ctx,context_instance=RequestContext(request))
-	
+
+def photos(request):
+		return render_to_response('home/photos.html',context_instance=RequestContext(request))
+
+def config_xml(request):
+		return render_to_response('home/config.xml',context_instance=RequestContext(request))
+
+def disco(request):
+		return render_to_response('home/disco.html',context_instance=RequestContext(request))
+
+def bio(request):
+		return render_to_response('home/bio.html',context_instance=RequestContext(request))

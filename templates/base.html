@@ -9,6 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Denk+One' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
         <link rel="image_src" href="http://sekuas.co/media/images/logo.jpg" />
+        <meta property="og:image" content="http://sekuas.co/media/images/logo.jpg" />
 	</head>
 	<body>
 		<div class="container">
@@ -30,7 +31,7 @@
                             <div class="nav-link">Conciertos</div>
                             <div class="nav-link">Descargas</div>
                             <div class="nav-link">Merchandise</div>
-                            <div class="nav-link"><a href="/contacto/">Contacto</a></div>
+                            <div class="nav-link"><a href="#">Contacto</a></div>
                         </div>
                     </nav>
             </div>
@@ -42,5 +43,13 @@
 					{% endblock %}	
                 </section>
         </div>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 	</body>
 </html>

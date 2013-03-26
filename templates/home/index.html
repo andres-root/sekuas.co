@@ -7,13 +7,14 @@
                     <div id="left">
 	{% for n in news %}
 		{% if n.visible %}
-                        <article class="cont">
+                        <article id="{{ n.title }}" class="cont">
+                            <link rel="image_src" href="http://sekuas.co/{{ MEDIA_URL }}{{ n.image }}" />
                             <div class="post-title">
                                 <label for="tit">{{ n.title }}</label>
                             </div>
                             <div class="post-cont">
                                 <div class="post-element">
-                                    <img src="/media/images/unirock.jpg" width="570" height="600"/>
+                                    <img src="{{ MEDIA_URL }}{{ n.image }}" width="570" height="600"/>
                                 </div>
                                 <div class="post-element">
                                     <div class="post-last">
@@ -22,8 +23,11 @@
                                         </p>
                                     </div>
                                 </div>
+                                <div class="post-footer">
+                                    <div class="fb-like" data-href="http://www.sekuas.co/#{{ n.title }}" data-send="true" data-width="450" data-show-faces="true" data-font="lucida grande" data-colorscheme="dark"></div>
+                                </div>
                             </div>
-                            <div class="post-footer">
+
                         </article>
 		{% endif %}
 	{% endfor %}		
